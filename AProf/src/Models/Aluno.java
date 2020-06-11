@@ -10,7 +10,7 @@ public class Aluno {
 	String cpf;
 	Date dtnasc;
 	List<Telefone> telefones;
-	
+
 	public Aluno(int ra, String nome, String rg, String cpf, Date dtnasc, List<Telefone> telefones) {
 		super();
 		this.ra = ra;
@@ -69,6 +69,10 @@ public class Aluno {
 		this.telefones = telefones;
 	}
 	
-	
+	@Override
+	public String toString() {
+		return "Aluno [ra=" + ra + ", nome=" + nome + ", rg=" + rg + ", cpf=" + cpf + ", dtnasc=" + dtnasc
+				+ ", telefones=" + telefones + "]";
+	}
 
 }
