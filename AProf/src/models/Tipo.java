@@ -1,4 +1,4 @@
-package Models;
+package models;
 
 public enum Tipo { 
 	Comercial(1), Residencial(2), Celular(3); 
